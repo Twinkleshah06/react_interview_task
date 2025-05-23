@@ -58,27 +58,27 @@ const TableForm = () => {
                     </CardHeader>
                 </Card>
 
-                <Card className='mt-3 header_card text-light scroll_container'>
+                <Card className='mt-3 header_card text-light'>
                     <ReactstrapRow className=''>
                         <Col lg={4} md={4} sm={6} xs={4} className='p-2  d-flex align-items-center justify-content-center flex_wrap'>
-                            <th className='fw-normal'>Product</th>
+                            <p className='mb-0'>Product</p>
                         </Col>
                         <Col lg={2} md={2} sm={2} xs={2} className='  d-flex align-items-center justify-content-center flex_wrap'>
-                            <th className='fw-normal'>Qty</th>
+                            <p className='mb-0'>Qty</p>
                         </Col>
                         <Col lg={2} md={2} sm={1} xs={2} className='  d-flex align-items-center justify-content-center flex_wrap'>
-                            <th className='fw-normal'>Price</th>
+                            <p className='mb-0'>Price</p>
                         </Col>
                         <Col lg={2} md={2} sm={1} xs={2} className='  d-flex align-items-center justify-content-center flex_wrap' >
-                            <th className='fw-normal'>Total</th>
+                            <p className='mb-0'>Total</p>
                         </Col>
                         <Col lg={2} md={2} sm={2} xs={2} className='  d-flex align-items-center justify-content-center flex_wrap'>
-                            <th className='fw-normal'>Actions</th>
+                            <p className='mb-0'>Actions</p>
                         </Col>
                     </ReactstrapRow>
                 </Card>
 
-                <Card className=' tbl_card scroll_container container_w' style={{ overflow: 'auto' }}>
+                <Card className='tbl_card' style={{ overflow: 'auto' }}>
                     <CardBody className="border-bottom-dashed">
                         {rows.map((row) => (
                             <Row
@@ -92,7 +92,7 @@ const TableForm = () => {
                     </CardBody>
                 </Card>
 
-                <div className='mt-2 row d-flex align-items-center justify-content-between scroll_container'>
+                <div className='mt-2 row d-flex align-items-center justify-content-between'>
                     <div className='col-lg-8 col-md-6 col-sm-2 col-xs-2'>
                         <button className='btn btn-success btn-sm'
                             onClick={() => {
