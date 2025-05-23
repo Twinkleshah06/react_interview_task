@@ -1,0 +1,48 @@
+.table_container {
+    padding: 20px;
+}
+
+.table_head {
+    background-color: #242659c2 !important;
+}
+
+.tbl_th {
+    color: white;
+}
+
+.tbl_card {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.header_card {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: #604175 !important;
+}
+
+.row_radius {
+    border-radius: 4px !important;
+}
+
+.flex_wrap {
+    flex-wrap: wrap !important;
+}
+
+.custom-row:nth-child(odd)>Col {
+    background-color: red !important;
+}
+
+.custom-row:nth-child(even)>Col {
+    background-color: #e9ecef;
+}
+
+.custom-row:nth-child(odd) {
+    background-color: #f0f1f2;
+}
+
+.form_title {
+    color: #604175;
+}
+
+select, input, .custom-row {
+    color: #604175 !important;
+}
